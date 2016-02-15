@@ -1,0 +1,22 @@
+{
+  "name": "sails-hook-sse",
+  "version": "1.0.0",
+  "description": "Sails Hook for Server Sent Events",
+  "main": "index.js",
+  "sails": {
+    "isHook": true
+  },
+  "scripts": {
+    "test": "make MOCHA_OPTS='-C -R dot' test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/makmakulet/sails-hook-sse.git"
+  },
+  "author": "makmakulet",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/makmakulet/sails-hook-sse/issues"
+  },
+  "homepage": "https://github.com/makmakulet/sails-hook-sse#readme"
+}
