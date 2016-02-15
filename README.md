@@ -21,7 +21,7 @@ Controller:
 //-- api/controllers/TestController.js
 module.exports = {
   index: function(req, res) {
-  res.sse({field: [Math.random(), Math.random()]});
+    res.sse({field: [Math.random(), Math.random()]});
   }
 };
 
@@ -37,3 +37,9 @@ sseSource.onmessage = function(e) {
 }
 
 ```
+
+## SSE method | res.sse( data )
+
+@data:  &lt;object | string&gt; value to be emitted by server on the connected client.
+
+@return: the @data as an event-stream
